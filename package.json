@@ -1,0 +1,26 @@
+{
+  "name": "jamundi",
+  "version": "1.0.0",
+  "description": "Micrositio Jamundí",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datasketch/jamundi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datasketch/jamundi/issues"
+  },
+  "homepage": "https://github.com/datasketch/jamundi#readme",
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  },
+  "devDependencies": {
+    "postcss": "^7.0.27",
+    "postcss-cli": "^7.1.0"
+  }
+}
