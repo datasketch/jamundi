@@ -11,6 +11,7 @@ module.exports = {
         'dartmouth-green': '#00733C',
         'maize-crayola': '#F8CD46',
         'caribbean-green': '#33CCA6',
+        'dark-jungle-green': '#141e14',
       },
       fontFamily: {
         barlow: ['Barlow', 'sans-serif'],
