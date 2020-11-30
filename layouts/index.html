@@ -1,5 +1,21 @@
 {{ define "main" }}
-<section class="p-4">
+<section style="background-image: url({{"images/bg.svg"|absURL}});" class="bg-center bg-cover bg-no-repeat px-4">
+  <div class="w-full mx-auto md:w-10/12 py-24">
+    <div class="w-full lg:w-1/2 lg:mr-auto">
+      <h1 class="font-pt font-black text-4xl uppercase text-indigo-dye leading-tight lg:text-4xl xl:text-5xl">
+        <span class="block text-mantis">Título importante</span>
+        <span class="text-caribbean-green">para resaltar</span>
+      </h1>
+      <div class="text-dark-jungle-green font-roboto space-y-4 mt-8 lg:text-lg">
+        <p>Es un instrumento normativo que garantiza la participación democrática de la oposición al gobierno de turno en los diferentes niveles territoriales.</p>
+        <p>El estatuto determina los recursos, las rutas de acción, las garantías y los medios que les posibilitan desempeñar una función crítica y alternativa a las acciones de la rama ejecutiva en el poder.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!---->
+<section class="px-4 py-12">
   <div class="w-full mx-auto flex flex-col-reverse md:w-10/12 md:flex-row md:items-start md:space-x-8">
     <div class="w-full mt-4 md:w-1/2 md:mt-0">
       <img src="{{"images/graphic-1.png"|absURL}}" alt="">
@@ -11,9 +27,6 @@
       </div>
     </div>
   </div>
-</section>
-<!---->
-<section class="bg-white p-4">
   <div class="w-full mx-auto flex flex-col md:w-10/12 md:flex-row md:items-start md:space-x-8">
     <div class="w-full md:w-1/2">
       <div class="md:max-w-md">
@@ -27,7 +40,12 @@
   </div>
 </section>
 <!---->
-<section class="p-4">
+<section class="py-12 text-center" style="background-color: #f5f5f5;">
+  <h3 class="font-pt text-mantis text-3xl uppercase font-black lg:text-4xl">Explora los datos</h3>
+  <div class="h-screen mt-4"></div>
+</section>
+<!---->
+<section class="px-4 py-12">
   <div class="w-full mx-auto flex flex-col-reverse md:w-10/12 md:flex-row md:items-start md:space-x-8">
     <div class="w-full mt-4 md:w-1/2 md:mt-0">
       <img src="{{"images/graphic-3.png"|absURL}}" alt="">
@@ -36,23 +54,9 @@
       <div class="md:max-w-md md:ml-auto">
         <h3 class="font-pt text-mantis text-3xl uppercase font-black lg:text-4xl">Subtítulo</h3>
         <p class="text-dark-jungle-green mt-6 text-sm lg:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor quisque cras fusce vivamus quis eu. Placerat sit posuere lectus varius sagittis diam. Ut id magna tempus, egestas iaculis turpis in aliquam nibh. Consectetur tristique ut malesuada nam. Diam facilisis in faucibus commodo amet, vitae diam odio. Sed dictum amet, bibendum risus in. Semper non a interdum velit egestas faucibus. Turpis in donec magna mattis cras at.</p>
+        <a class="font-pt inline-block mt-6 uppercase bg-caribbean-green text-white rounded font-bold text-lg px-3 py-2 lg:text-xl" href="">Explora los datos</a>
       </div>
     </div>
   </div>
 </section>
-<!---->
-<!-- <section style="background-image: url({{"images/bg.png"|absURL}});" class="bg-center bg-cover bg-no-repeat px-4">
-  <div class="w-full mx-auto md:w-10/12 py-16">
-    <div class="w-full text-center lg:w-1/2 lg:ml-auto">
-      <h1 class="font-black text-4xl uppercase text-indigo-dye leading-tight lg:text-5xl xl:text-6xl">
-        El <span class="text-tart-orange">Estatuto de la oposición</span> en Colombia
-      </h1>
-      <div class="text-oxford-blue font-roboto space-y-4 mt-8 lg:text-lg">
-        <p>Es un instrumento normativo que garantiza la participación democrática de la oposición al gobierno de turno en los diferentes niveles territoriales.</p>
-        <p>El estatuto determina los recursos, las rutas de acción, las garantías y los medios que les posibilitan desempeñar una función crítica y alternativa a las acciones de la rama ejecutiva en el poder.
-        </p>
-      </div>
-    </div>
-  </div>
-</section> -->
 {{ end }}
