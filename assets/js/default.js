@@ -1,6 +1,8 @@
 'use strict';
 
-const moveTo = new MoveTo();
+const moveTo = new MoveTo({
+  tolerance: 80,
+});
 const menuTrigger = document.getElementById('menu-trigger');
 const menuNav = document.getElementById('menu-nav');
 const triggers = document.querySelectorAll('.js-trigger');
